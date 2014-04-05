@@ -1,0 +1,9 @@
+function logic(data, tests){
+	if (data && tests){
+		result= doTests(tests, data);
+	else {
+		printError("Failed tests");
+		result = onError();
+	}
+	return result'
+}
